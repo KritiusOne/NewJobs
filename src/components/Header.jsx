@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom"
 import "./header.css"
+import { RoutesTypes } from "../routes/FinalRoutes"
 export default function Header() {
   return (
     <header className="header">
       <ul className="header__list">
-        <li className="header__list__item">
+        <Link to={RoutesTypes.HOME} className="header__list__item">
           Inicio
-        </li>
+        </Link>
         <li className="header__list__item">
           Estadisticas
         </li>

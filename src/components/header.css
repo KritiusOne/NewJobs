@@ -1,8 +1,9 @@
 .header {
   width: 100vw;
   height: 60px;
-  position: fixed;
+  position: absolute;
   top: 0;
+  color: #fff;
 }
 .header__list {
   height: 100%;
@@ -19,6 +20,8 @@
   padding: 4px 8px;
   border: none;
   border-bottom: #164081 solid 2px;
+  text-decoration: none;
+  color: #fff;
 }
 .header__list__item:hover {
   background-color: #fff;

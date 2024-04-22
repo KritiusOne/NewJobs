@@ -23,6 +23,10 @@ function App() {
   return (
     <div className='home'>
       <Header className="home__header"/>
+      <div className='home--container'>
+        <h1 className='home__title'>Aplicación primer empleo</h1>
+        <strong className='home__subtitle'>¡Bienvenido!</strong>
+      </div>
       <div className='home__form'>
         <input type="text" className="home__form__input" placeholder='Titulo de empleo' onChange={(e)=> setTitulo(e.currentTarget.value.trim())}/>
         <input type="text" className="home__form__input" placeholder='Ubicación' 
