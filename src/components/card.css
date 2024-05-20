@@ -1,9 +1,29 @@
 .card {
-  background-color: #fff;
-  border: #888 solid 2px;
+  width: 450px;
+  background: linear-gradient(to right, #faf5f3, #b3b1b1);
+  margin: 20px;
+  border: #e6e6e6 solid 2px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 10px 5px;
+  transition: all 0.5s;
+}
+.card:hover{
+  cursor: pointer;
+  background: linear-gradient(to right, #c7c3c2, #dddbdb);
+}
+.click{
+  color: rgb(32, 147, 255);
+}
+.card__title{
+  
+  color: #ff1616d7;
+}
+.card__city{
+  color: rgb(41, 91, 255);
+}
+.card__description{
+  color: rgb(35, 41, 59);
 }

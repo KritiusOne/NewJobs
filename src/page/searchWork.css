@@ -18,3 +18,16 @@
   overflow-x: none;
   padding: 10px 5px;
 }
+.search{
+  position: absolute;
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.cards{
+  flex-wrap: wrap;
+  width: 73%;
+  display: flex;
+}
